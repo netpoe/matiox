@@ -4,6 +4,11 @@
   <link href="/css/admin/products/catalog.css" rel="stylesheet">
 @endpush
 
+@push('sub-header-actions')
+  <button class="btn btn-primary" onclick="$adminProductsCatalog.openUnassignedFilesModal()">Crear producto</button>
+  <button class="btn btn-info">Botón 2</button>
+@endpush
+
 @section('content')
   <div id="admin-products-catalog">
     <div class="products-wrapper">
@@ -11,15 +16,6 @@
         <h5>Filtrar productos por</h5>
       </div>
       <div class="products-list-wrapper">
-        <div class="card">
-          <small class="card-block-title">Acciones</small>
-          <div class="card-block">
-            <nav class="user-resources-nav">
-              <button class="btn btn-sm btn-primary" @click="openUnassignedFilesModal">Crear producto</button>
-            </nav>
-          </div>
-        </div>
-
         <form
           method="POST"
           enctype="multipart/form-data"
@@ -113,4 +109,4 @@
   </script>
 @endpush
 
-@include('includes.admin.admin-products-modal')
+@include('components.admin.products-modal')

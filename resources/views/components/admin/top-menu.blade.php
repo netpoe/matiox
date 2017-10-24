@@ -23,15 +23,10 @@
       </ul>
     </div>
     <div class="top-menu-item">
-      <div><a href="#">Cuestionarios</a></div>
-      <ul class="top-menu-dropdown"> </ul>
-    </div>
-    <div class="top-menu-item">
       <div><a href="#">Analytics</a></div>
       <ul class="top-menu-dropdown">
         <li class="top-menu-sub-item"><a href="#">Órdenes</a></li>
         <li class="top-menu-sub-item"><a href="#">Usuarios</a></li>
-        <li class="top-menu-sub-item"><a href="#">Cuestionarios</a></li>
         <li class="top-menu-sub-item"><a href="#">Productos</a></li>
       </ul>
     </div>

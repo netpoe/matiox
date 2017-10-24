@@ -37,6 +37,13 @@
   .header-left,
   .header-center,
   .header-right {
-    height: 21px;
+    padding-bottom: get-spacer(3);
+    padding-top: get-spacer(3);
   }
 }
+
+.breadcrumb {
+
+}
+
+.sub-header-actions {}
