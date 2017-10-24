@@ -1,0 +1,76 @@
+/*
+  Bootstrap overrides
+*/
+
+.img-responsive {
+  width: 100%;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  font-size: 10px;
+}
+
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.card {
+  margin-bottom: get-spacer(3, y);
+  word-break: break-all;
+  .card-header {
+    @include flex-row-space-between;
+    @include normalize-text;
+    .title, .action {
+      @include flex-column-center;
+      min-height: 35px;
+    }
+  }
+}
+
+.card-block {
+  &.card-block-scroll {
+    overflow: scroll;
+    max-height: 180px;
+  }
+}
+
+.card-block-title {
+  @include bold;
+  border-bottom: 1px solid $gray-lightest;
+  display: block;
+  padding: get-spacer(2, y);
+}
+
+.card-title-wrapper {
+  @include flex-row-space-between;
+  border-bottom: 1px solid $gray-lightest;
+  padding: get-spacer(2, y);
+  .card-block-title {
+    border-bottom: none;
+    padding: 0;
+  }
+}
+
+.form-group {
+  label {
+    font-size: $font-size-h5;
+  }
+}
+
+.section-header {
+  padding: 0;
+}
+
+.header {
+  .header-right {
+    nav {
+      a {
+        margin-left: get-spacer(3, x);
+        display: inline-block;
+      }
+    }
+  }
+}

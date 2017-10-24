@@ -1,0 +1,22 @@
+/node_modules
+/public/hot
+/public/storage
+/public/css
+/public/js
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+.DS_STORE
+
+# laradock
+/matioxdock/.idea
+/matioxdock/logs
+/matioxdock/data
+/matioxdock/.env
+/matioxdock/.project
+/matioxdock/.docker-sync
