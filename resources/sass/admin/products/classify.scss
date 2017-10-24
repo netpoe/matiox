@@ -1,24 +1,19 @@
 @charset "UTF-8";
 
-@import "./resources/sass/bootstrap-variables";
+@import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/mixins";
-@import "./node_modules/bootstrap/scss/normalize";
-@import "./node_modules/bootstrap/scss/print";
+@import "./resources/sass/bootstrap-variables";
 @import "./node_modules/bootstrap/scss/reboot";
+@import "./node_modules/bootstrap/scss/print";
 @import "./node_modules/bootstrap/scss/type";
 @import "./node_modules/bootstrap/scss/images";
 @import "./node_modules/bootstrap/scss/grid";
 @import "./node_modules/bootstrap/scss/forms";
+@import "./node_modules/bootstrap/scss/input-group";
 @import "./node_modules/bootstrap/scss/buttons";
 @import "./node_modules/bootstrap/scss/breadcrumb";
 @import "./node_modules/bootstrap/scss/card";
-@import "./node_modules/bootstrap/scss/utilities/background";
-@import "./node_modules/bootstrap/scss/utilities/clearfix";
-@import "./node_modules/bootstrap/scss/utilities/display";
-@import "./node_modules/bootstrap/scss/utilities/float";
-@import "./node_modules/bootstrap/scss/utilities/screenreaders";
-@import "./node_modules/bootstrap/scss/utilities/text";
-@import "./node_modules/bootstrap/scss/utilities/visibility";
+@import "./node_modules/bootstrap/scss/utilities";
 
 @import "bourbon";
 
@@ -72,22 +67,22 @@ $products-filter-width: 350px;
 .products-filters {
   padding-top: 0 !important;
   .title {
-    background-color: $brand-warning;
-    margin-right: - get-spacer(3, x);
-    margin-left: - get-spacer(3, x);
-    padding: get-spacer(3, x);
+    background-color: theme-color('warning');
+    margin-right: - get-spacer(3);
+    margin-left: - get-spacer(3);
+    padding: get-spacer(3);
     margin-bottom: 0;
     color: white;
   }
   .category-group {
     &:nth-child(even) {
-      background-color: $gray-lighter;
+      background-color: $gray-300;
     }
-    margin-right: - get-spacer(3, x);
-    margin-left: - get-spacer(3, x);
-    padding: get-spacer(3, x);
+    margin-right: - get-spacer(3);
+    margin-left: - get-spacer(3);
+    padding: get-spacer(3);
     h6 {
-      margin-bottom: get-spacer(3, y);
+      margin-bottom: get-spacer(3);
     }
   }
 }

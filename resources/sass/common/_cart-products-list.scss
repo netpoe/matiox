@@ -3,13 +3,13 @@
   background-color: white;
   .product {
     @include flex-row;
-    border-bottom: 1px solid $gray-lightest;
+    border-bottom: 1px solid $gray-100;
   }
   .img-wrapper,
   .info,
   .actions {
     @include flex-column-center;
-    padding: get-spacer(3, y);
+    padding: get-spacer(3);
     position: relative;
     min-height: 120px;
     > div {
@@ -21,8 +21,8 @@
     > div {
       @include bg-img-block;
       @include position(absolute, 0 0 0 0);
-      margin-right: get-spacer(3, y);
-      margin-left: get-spacer(3, y);
+      margin-right: get-spacer(3);
+      margin-left: get-spacer(3);
       background-size: contain;
       height: 100%;
     }
@@ -41,7 +41,7 @@
     width: 40%;
     .amount-wrapper,
     .remove-item {
-      padding: 0 get-spacer(2, x);
+      padding: 0 get-spacer(2);
     }
     .amount-wrapper {
       width: 75%;
@@ -57,12 +57,12 @@
         cursor: pointer;
         .btn-remove-item {
           i {
-            color: $brand-danger;
+            color: theme-color('danger');
           }
         }
       }
       i {
-        font-size: $font-size-h3;
+        font-size: $h3-font-size;
       }
     }
   }

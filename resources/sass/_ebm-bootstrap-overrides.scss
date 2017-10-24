@@ -7,8 +7,10 @@
 }
 
 .breadcrumb {
+  background-color: transparent;
   margin-bottom: 0;
   font-size: 10px;
+  padding: 0;
 }
 
 .btn {
@@ -18,7 +20,7 @@
 }
 
 .card {
-  margin-bottom: get-spacer(3, y);
+  margin-bottom: get-spacer(3);
   word-break: break-all;
   .card-header {
     @include flex-row-space-between;
@@ -39,15 +41,15 @@
 
 .card-block-title {
   @include bold;
-  border-bottom: 1px solid $gray-lightest;
+  border-bottom: 1px solid $gray-100;
   display: block;
-  padding: get-spacer(2, y);
+  padding: get-spacer(2);
 }
 
 .card-title-wrapper {
   @include flex-row-space-between;
-  border-bottom: 1px solid $gray-lightest;
-  padding: get-spacer(2, y);
+  border-bottom: 1px solid $gray-100;
+  padding: get-spacer(2);
   .card-block-title {
     border-bottom: none;
     padding: 0;
@@ -56,7 +58,7 @@
 
 .form-group {
   label {
-    font-size: $font-size-h5;
+    font-size: $h5-font-size;
   }
 }
 
@@ -68,7 +70,7 @@
   .header-right {
     nav {
       a {
-        margin-left: get-spacer(3, x);
+        margin-left: get-spacer(3);
         display: inline-block;
       }
     }

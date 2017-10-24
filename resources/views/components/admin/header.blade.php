@@ -9,7 +9,11 @@
         </div>
       </div>
       <div class="col-4 header-center"></div>
-      <div class="col-4 header-right"></div>
+      <div class="col-4 header-right">
+        <nav class="sub-header-actions">
+          @stack('sub-header-actions')
+        </nav>
+      </div>
     </div>
   </div>
 </header>

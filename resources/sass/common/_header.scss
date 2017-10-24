@@ -4,7 +4,7 @@
 }
 
 #logo-konfio {
-  fill: $brand-info;
+  fill: theme-color('info');
 }
 
 .header {
@@ -19,7 +19,7 @@
 .search-bar-wrapper {
   @include flex-column-center;
   min-height: $header-height-control;
-  margin-right: get-spacer(3, x) !important;
+  margin-right: get-spacer(3) !important;
 }
 
 .logo-wrapper {}
@@ -39,6 +39,7 @@
   .header-right {
     padding-bottom: get-spacer(3);
     padding-top: get-spacer(3);
+    height: auto;
   }
 }
 

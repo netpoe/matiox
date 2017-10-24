@@ -29,8 +29,8 @@ body {
 }
 
 .site-content {
-  background-color: $gray-lightest;
-  padding: get-spacer(3, y) 0;
+  background-color: $gray-100;
+  padding: get-spacer(3) 0;
 }
 
 [v-cloak] { display:none; }

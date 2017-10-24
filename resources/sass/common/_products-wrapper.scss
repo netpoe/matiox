@@ -8,7 +8,7 @@
   .products-filters {
     @include position(absolute, 0 null 0 0);
     width: $products-filter-width;
-    padding: get-spacer(3, x);
+    padding: get-spacer(3);
     background-color: white;
     overflow: scroll;
   }

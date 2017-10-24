@@ -25,17 +25,17 @@ $product-item-height: 160px;
       }
     }
     .features {
-      padding: get-spacer(3, x);
+      padding: get-spacer(3);
       width: 85%;
     }
     .title {
-      font-size: $font-size-h5;
-      color: $gray-dark;
+      font-size: $h5-font-size;
+      color: $gray-700;
       display: block;
     }
     .assigned-to {
-      margin-bottom: get-spacer(2, y);
-      color: $gray-light;
+      margin-bottom: get-spacer(2);
+      color: $gray-500;
       display: block;
     }
     &:hover {

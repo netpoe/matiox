@@ -4,8 +4,8 @@
   .right {
     @include flex-column-center;
     min-height: $header-height-control / 2;
-    padding-bottom: get-spacer(1, y);
-    padding-top: get-spacer(1, y);
+    padding-bottom: get-spacer(1);
+    padding-top: get-spacer(1);
   }
   .left {}
   .center {

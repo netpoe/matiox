@@ -1,9 +1,9 @@
 .top-menu {
   @include flex-row-space-between;
-  background-color: $gray-lightest;
+  background-color: $gray-100;
   font-size: 12px;
   a {
-    color: $gray-dark;
+    color: $gray-700;
   }
   .top-menu-left,
   .top-menu-right {}
@@ -22,7 +22,7 @@
     }
   }
   .top-menu-item {
-    border-right: 1px solid $gray-lighter;
+    border-right: 1px solid $gray-300;
     position: relative;
     > div {
       a {
@@ -30,7 +30,7 @@
         padding: 2px 7px;
         display: block;
         &:hover {
-          background-color: $gray-lighter;
+          background-color: $gray-300;
         }
       }
     }
@@ -45,7 +45,7 @@
     @include position(absolute, 100% null null 0);
     border-bottom-right-radius: $border-radius;
     border-bottom-left-radius: $border-radius;
-    background-color: $gray-lightest;
+    background-color: $gray-100;
     display: none;
     width: 210px;
     z-index: 10;
@@ -54,7 +54,7 @@
         padding: 2px 7px;
         display: block;
         &:hover {
-          background-color: $gray-lighter;
+          background-color: $gray-300;
         }
       }
     }
