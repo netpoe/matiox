@@ -10,12 +10,12 @@
     @stack('head-link')
   </head>
   <body>
-    @include('includes/admin/include-search-wrapper')
+    @include('components.admin.search-wrapper')
     <div class="site-wrapper" id="site-wrapper">
       @yield('site-wrapper')
 
-      @include('includes/admin/include-top-menu')
-      @include('includes/admin/include-header')
+      @include('components.admin.top-menu')
+      @include('components.admin.header')
       {{-- @include('includes/admin/include-sub-header') --}}
       <main class="site-content" role="main">
 

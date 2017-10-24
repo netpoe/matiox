@@ -13,7 +13,7 @@
 
         @include('fields/checkbox', ['field' => $section->getField('shoes')])
 
-        @include('includes/section-error-alert')
+        @include('components.common.section-error-alert')
 
       </div>
     </div>

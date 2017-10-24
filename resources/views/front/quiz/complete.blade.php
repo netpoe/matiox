@@ -1,4 +1,4 @@
-@extends('layouts.quiz')
+@extends('layouts.front.quiz')
 
 @push('head-link')
   <link href="/css/front/quiz/section.css" rel="stylesheet">

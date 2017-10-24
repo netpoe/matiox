@@ -4,11 +4,8 @@
       <div class="col-4 header-left">
         <div>
           <a href="#" class="logo-wrapper">
-            YRSMX
+            Matiox Deco
           </a>
-          {{-- <div class="search-bar-wrapper">
-            <button class="btn btn-secondary" id="btn-search-trigger">Buscar: ctrl + s</button>
-          </div> --}}
         </div>
       </div>
       <div class="col-4 header-center"></div>

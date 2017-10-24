@@ -25,7 +25,7 @@
         <div class="container">
           <div class="row">
             <div class="col-4 header-left">
-              <a href="#">YOURS</a>
+              <a href="#">Matiox Deco</a>
             </div>
             <div class="col-4 header-center"></div>
             <div class="col-4 header-right">

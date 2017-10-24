@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.admin.dashboard')
 
 @push('head-link')
   <link href="/css/admin/products/catalog.css" rel="stylesheet">

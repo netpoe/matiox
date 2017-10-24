@@ -14,7 +14,7 @@
         @include('fields/radio', ['field' => $section->getField('pants_fit_hips')])
         @include('fields/radio', ['field' => $section->getField('pants_fit_shape')])
 
-        @include('includes/section-error-alert')
+        @include('components.common.section-error-alert')
 
       </div>
     </div>

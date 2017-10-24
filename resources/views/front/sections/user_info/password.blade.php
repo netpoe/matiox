@@ -14,7 +14,7 @@
         @include('fields/text', ['field' => $section->getField('password')])
         @include('fields/text', ['field' => $section->getField('password_confirmation')])
 
-        @include('includes/section-error-alert')
+        @include('components.common.section-error-alert')
 
       </div>
     </div>

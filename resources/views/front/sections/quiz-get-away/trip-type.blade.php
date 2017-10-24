@@ -21,7 +21,7 @@
           @include('fields/radio', ['field' => $section->getField('weather')])
         @endif
 
-        @include('includes/section-error-alert')
+        @include('components.common.section-error-alert')
 
       </div>
     </div>

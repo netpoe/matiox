@@ -13,7 +13,7 @@
 
         @include('fields/radio', ['field' => $section->getField('upper_part_fit')])
 
-        @include('includes/section-error-alert')
+        @include('components.common.section-error-alert')
 
       </div>
     </div>

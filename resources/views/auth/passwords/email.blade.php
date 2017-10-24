@@ -1,4 +1,4 @@
-@extends('layouts.admin-auth')
+@extends('layouts.admin.auth')
 
 @push('head-link')
   <link href="/css/admin/auth/login.css" rel="stylesheet">

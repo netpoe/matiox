@@ -14,7 +14,7 @@
         @include('fields/textarea', ['field' => $section->getField('occupation')])
         @include('fields/textarea', ['field' => $section->getField('extras')])
 
-        @include('includes/section-error-alert')
+        @include('components.common.section-error-alert')
 
       </div>
     </div>
