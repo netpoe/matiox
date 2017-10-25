@@ -4,7 +4,7 @@
       <div><a href="{{ route('admin.products.catalog') }}">Productos</a></div>
       <ul class="top-menu-dropdown">
         <li class="top-menu-sub-item"><a href="{{ route('admin.products.catalog') }}">Catálogo</a></li>
-        <li class="top-menu-sub-item"><a href="#">Categorías</a></li>
+        <li class="top-menu-sub-item"><a href="{{ route('admin.product-categories.index') }}">Categorías</a></li>
         <li class="top-menu-sub-item"><a href="#">Atributos</a></li>
         <li class="top-menu-sub-item"><a href="#">Inventario</a></li>
       </ul>

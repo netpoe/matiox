@@ -44,8 +44,8 @@ class ProductsService
     /**
      *  getDocumentUploadUrls
      *
-     *  creates a list of url so you can upload multiple files per
-     *  document. After uploading the files it is requires for you
+     *  creates a list of urls so you can upload multiple files per
+     *  document. After uploading the files it is required for you
      *  to confirm the uploads.
      *
      *  @param Array $fileNames, the names of the files make the number of urls to generate

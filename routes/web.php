@@ -27,6 +27,14 @@ Route::group(['middleware' => ['auth', 'auth.admin'], 'namespace' => 'Admin'], f
 });
 
 /**
+ * ADMIN PRODUCT CATEGORIES and ATTRIBUTES
+ */
+Route::group(['middleware' => ['auth', 'auth.admin'], 'namespace' => 'Admin'], function(){
+    Route::post('/admin/categorias-de-producto/crear', 'ProductCategoriesController@store')->name('admin.product-categories.store');
+    Route::get('/admin/categorias-de-producto', 'ProductCategoriesController@index')->name('admin.product-categories.index');
+});
+
+/**
  * ADMIN USERS
  */
 Route::group(['middleware' => ['auth', 'auth.admin'], 'namespace' => 'Admin'], function(){
